@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyYeung1/Portfolio-Website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EddyYeung1/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/EddyYeung1/Portfolio-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
