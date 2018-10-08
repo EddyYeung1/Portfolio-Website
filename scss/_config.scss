@@ -15,7 +15,7 @@ $background-opacity: 0.9;
       background-attachment: fixed;
       background-size: cover;
 
-      //pseudo element takes overlay div out of html
+      //pseudo element adds something after body tag in index
       &:after {
         content: "";
         position: absolute;
