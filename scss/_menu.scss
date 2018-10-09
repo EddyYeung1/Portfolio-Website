@@ -13,7 +13,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -88,9 +88,9 @@
     }
 
     .portrait {
-      width: 250px;
+      width: 287px;
       height: 250px;
-      background: url(../img/portrait.png);
+      background: url("../img/portrait2.jpg");
       //background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
