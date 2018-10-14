@@ -181,7 +181,11 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5em;
-    border-bottom: limegreen 5px solid; }
+    border-bottom: limegreen 5px solid;
+    text-align: center; }
+  .about-info h6 {
+    color: limegreen;
+    font-size: 0.75rem; }
 
 .projects {
   display: grid;

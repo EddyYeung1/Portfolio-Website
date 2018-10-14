@@ -112,6 +112,12 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5em;
     border-bottom: $secondary-color 5px solid;
+    text-align: center;
+  }
+
+  h6 {
+    color: $secondary-color;
+    font-size: 0.75rem;
   }
 }
 
