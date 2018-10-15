@@ -13,7 +13,7 @@
   <title>Eddy Yeung</title>
 </head>
 
-<body id="bg-img">
+<body>
   <header>
     <div class="menu-btn">
       <div class="btn-line"></div>
@@ -49,7 +49,7 @@
       </ul>
     </nav>
   </header>
-
+  <div id="particles-js"></div>
   <main id="home">
     <h1 class="lg-heading">
       Eddy <span class="text-secondary">Yeung</span>
@@ -58,18 +58,25 @@
       Developer, Designer, & Aspiring Entrepreneur
     </h2>
     <div class="icons">
-      <a href="">
+      <a href="https://www.linkedin.com/in/edward-yeung-315052138/">
         <i class="fab fa-linkedin fa-2x"></i>
       </a>
-      <a href="">
+      <a href="https://github.com/EddyYeung1">
         <i class="fab fa-github fa-2x"></i>
       </a>
       <a href="">
         <i class="fab fa-youtube fa-2x"></i>
       </a>
     </div>
+
   </main>
 
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function () {
+      console.log('particles.json loaded...');
+    });
+  </script>
   <script src="js/main.js"></script>
 </body>
 
