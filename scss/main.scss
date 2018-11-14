@@ -135,8 +135,40 @@ main {
 //work and projects
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "p1 t1"
+    "t2 p2"
+    "p3 t3";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 2fr);
+
+  .p1 {
+    grid-area: p1;
+  }
+
+  .t1 {
+    grid-area: t1;
+  }
+
+  .p2 {
+    grid-area: p2;
+  }
+
+  .t2 {
+    grid-area: t2;
+  }
+
+  .p3 {
+    grid-area: p3;
+  }
+
+  .t3 {
+    grid-area: t3;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
 
   img {
     width: 100%;

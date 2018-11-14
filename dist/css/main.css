@@ -198,8 +198,23 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: "p1 t1" "t2 p2" "p3 t3";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 2fr); }
+  .projects .p1 {
+    grid-area: p1; }
+  .projects .t1 {
+    grid-area: t1; }
+  .projects .p2 {
+    grid-area: p2; }
+  .projects .t2 {
+    grid-area: t2; }
+  .projects .p3 {
+    grid-area: p3; }
+  .projects .t3 {
+    grid-area: t3; }
+  .projects p {
+    font-size: 1.25em; }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -234,11 +249,11 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(2, 2fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(2, 2fr); } }
 
 @media screen and (max-width: 768px) {
   main {
