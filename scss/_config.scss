@@ -52,8 +52,14 @@ $background-opacity: 0.9;
   }
 }
 
+@mixin fixWorkPage {
+  @media screen and (min-width: 769px) and(max-width: 930px) {
+    @content;
+  }
+}
+
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
+  @media screen and (min-width: 931px) and (max-width: 1170px) {
     @content;
   }
 }

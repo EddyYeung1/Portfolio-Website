@@ -131,7 +131,9 @@ main {
     font-size: 0.75rem;
   }
 }
-
+#workHeader {
+  font-size: 6em;
+}
 //work and projects
 .projects {
   display: grid;
@@ -141,6 +143,10 @@ main {
     "p3 t3";
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 2fr);
+
+  .pPad {
+    margin-bottom: 2rem;
+  }
 
   .p1 {
     grid-area: p1;
@@ -168,17 +174,13 @@ main {
 
   p {
     font-size: 1.25em;
+    margin: 0;
   }
 
   img {
     width: 100%;
-    border: 3px #fff solid;
-
-    &:hover {
-      opacity: 0.5;
-      border-color: $secondary-color;
-      @include easeOut;
-    }
+    height: 70%;
+    border: 3px $secondary-color solid;
   }
 }
 

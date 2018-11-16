@@ -196,11 +196,16 @@ main {
     color: limegreen;
     font-size: 0.75rem; }
 
+#workHeader {
+  font-size: 6em; }
+
 .projects {
   display: grid;
   grid-template-areas: "p1 t1" "t2 p2" "p3 t3";
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 2fr); }
+  .projects .pPad {
+    margin-bottom: 2rem; }
   .projects .p1 {
     grid-area: p1; }
   .projects .t1 {
@@ -214,14 +219,12 @@ main {
   .projects .t3 {
     grid-area: t3; }
   .projects p {
-    font-size: 1.25em; }
+    font-size: 1.25em;
+    margin: 0; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
-    .projects img:hover {
-      opacity: 0.5;
-      border-color: limegreen;
-      transition: all 0.5s ease-out; }
+    height: 70%;
+    border: 3px limegreen solid; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -249,11 +252,26 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(2, 2fr); } }
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 4em; }
+  .projects p {
+    font-size: 1.2em; } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (min-width: 931px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(2, 2fr); } }
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5em; }
+  .projects p {
+    font-size: 1em; } }
+
+@media screen and (min-width: 769px) and (max-width: 930px) {
+  .projects {
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 3em; }
+  .projects p {
+    font-size: 0.8em; }
+  .projects h1 {
+    font-size: 26px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -285,10 +303,19 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-areas: "p1" "t1" "p2" "t2" "p3" "t3";
+    grid-template-columns: 1fr;
+    grid-gap: 1em; }
+  .projects p {
+    font-size: 0.75em; } }
 
 @media screen and (max-width: 500px) {
   main main#home h1 {
     margin-top: 10vh; }
+  #workHeader {
+    font-size: 3em; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-areas: "p1" "t1" "p2" "t2" "p3" "t3";
+    grid-template-columns: 1fr; }
+  .projects h1 {
+    font-size: 20px; } }

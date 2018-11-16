@@ -2,6 +2,11 @@
 @include mediaXl {
   .projects {
     grid-template-columns: repeat(2, 2fr);
+    grid-gap: 4em;
+  }
+
+  .projects p {
+    font-size: 1.2em;
   }
 }
 
@@ -9,9 +14,26 @@
 @include mediaLg {
   .projects {
     grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5em;
+  }
+  .projects p {
+    font-size: 1em;
   }
 }
 
+@include fixWorkPage {
+  .projects {
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 3em;
+  }
+  .projects p {
+    font-size: 0.8em;
+  }
+
+  .projects h1 {
+    font-size: 26px;
+  }
+}
 //tablets small laptops
 @include mediaMd {
   main {
@@ -63,7 +85,19 @@
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "p1"
+      "t1"
+      "p2"
+      "t2"
+      "p3"
+      "t3";
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  .projects p {
+    font-size: 0.75em;
   }
 }
 
@@ -74,7 +108,21 @@
       margin-top: 10vh;
     }
   }
+  #workHeader {
+    font-size: 3em;
+  }
   .projects {
+    grid-template-areas:
+      "p1"
+      "t1"
+      "p2"
+      "t2"
+      "p3"
+      "t3";
     grid-template-columns: 1fr;
+  }
+
+  .projects h1 {
+    font-size: 20px;
   }
 }
