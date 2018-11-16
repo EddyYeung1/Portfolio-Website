@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/EddyYeung1/Portfolio-Website#readme",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "node-sass": "^4.9.3",
     "particle.js": "^1.0.7",
     "particles.js": "^2.0.0"

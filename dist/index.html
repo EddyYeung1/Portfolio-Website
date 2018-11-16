@@ -10,6 +10,7 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/main.css" />
     <title>Eddy Yeung</title>
   </head>
@@ -59,26 +60,26 @@
       </div>
     </main>
 <div id="first">
-    <h1 class="lg-heading">
+    <h1 class="wow animated jackInTheBox lg-heading">
       About <span class="text-secondary">Me</span>
     </h1>
-    <h2 class="sm-heading">Let me tell you a few things...</h2>
+    <h2 class="wow animated jackInTheBox sm-heading">What I'm about!</h2>
     <div class="about-info">
-      <img src="img/profile.png" alt="Eddy Yeung" class="bio-image" />
+      <img src="img/profile.png" alt="Eddy Yeung" class="wow animated slideInLeft bio-image" />
 
-      <div class="bio">
+      <div class="wow animated slideInRight bio">
         <h3 class="text-secondary">BIO</h3>
         <p>
-          Hello World! I am a developer and aspiring entreprenuer who is
-          passionate about finding technological solutions to everyday
+          Hello World! I am a developer and aspiring entrepreneur who is
+          passionate about finding <span class="text-secondary">technological solutions</span> to everyday
           problems. I love learning new things everyday and strive to find
           ways to enhance my personal growth. When I'm not coding I am most
-          likely supporting Manchester United and the Philadelphia Eagles,
+          likely supporting <span class="text-secondary">Manchester United</span> and the <span class="text-secondary">Philadelphia Eagles</span>,
           working out, or playing soccer.
         </p>
       </div>
 
-      <div class="job job-1">
+      <div class="wow animated slideInUp job job-1">
         <h3>goEmerchant</h3>
         <h6>Software Engineering Intern</h6>
         <p>
@@ -88,7 +89,7 @@
         </p>
       </div>
 
-      <div class="job job-2">
+      <div class="wow animated slideInUp delay-1s job job-2">
         <h3>Ruotolo, Spewak, and Co.</h3>
         <h6>IT/MIS Intern</h6>
         <p>
@@ -99,7 +100,7 @@
         </p>
       </div>
 
-      <div class="job job-3">
+      <div class="wow animated slideInUp delay-2s job job-3">
         <h3>Rutgers ACM Chapter</h3>
         <h6>Treasurer</h6>
         <p>
@@ -111,16 +112,17 @@
       </div>
     </div>
   </div>
-  <div id="second">      <h1 id="workHeader">Side <span class="text-secondary">Projects</span></h1>
-    <h2 class="sm-heading">Check these out!</h2>
+  <div id="second">      
+    <h1 id="workHeader" class="wow animated jackInTheBox">Side <span class="text-secondary">Projects</span></h1>
+    <h2 class="wow animated jackInTheBox sm-heading">Check these out!</h2>
     <div class="projects">
-      <div class="p1">
+      <div class="wow animated slideInLeft p1">
         <img src="img/projects/jp_morgan.jpg" alt="Project" />
         <a href="https://github.com/Delaware2018/team-10" class="btn-dark" style="text-align: center">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
-      <div class="pPad t1">
+      <div class="wow animated slideInRight pPad t1">
         <h1><span class="text-secondary">JP Morgan Hackathon</span></h1>
         <p>
           In 2018, I competed in JP Morgan's Code for Good hackathon that
@@ -130,8 +132,8 @@
           find creative ways to thank their donors. Using the
           <span class="text-secondary">Ionic</span> framework, I mostly worked
           on the front end and designed the application to encourage donations
-          through gamification and also be very user friendly to all age
-          groups to use. I had a fun time learning how to use the
+          through gamification and also be very user friendly for all age
+          groups. I had a fun time learning how to use the
           <span class="text-secondary">Ionic</span> framework and also using
           <span class="text-secondary">Sass</span> and
           <span class="text-secondary">TypeScript</span> to style the app.
@@ -140,20 +142,20 @@
           whole competition!
         </p>
       </div>
-      <div class="p2">
+      <div class="wow animated slideInRight delay-Qs p2">
         <img src="img/projects/smartMirror.jpg" alt="Project" />
         <a href="https://github.com/EddyYeung1/EtMirror" class="btn-dark" style="text-align: center">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
-      <div class="pPad t2">
+      <div class="wow animated slideInLeft delay-Qs pPad t2">
         <h1><span class="text-secondary">Smart Mirror</span></h1>
         <p>
           Probably the coolest out of all my projects, is a smart mirror that
           I am making after winning a few of the materials at a hackathon.
           Using an old monitor I had, a
           <span class="text-secondary">Raspberry Pi</span>, and lots of
-          youtube videos I made a cool customizable smart mirror for my
+          YouTube videos I made a cool customizable smart mirror for my
           friend's 21st birthday gift. Along with that the mirror can be
           activated using a
           <span class="text-secondary">Google Home Mini</span> I also won at a
@@ -169,13 +171,13 @@
           tuned for that!
         </p>
       </div>
-      <div class="p3">
+      <div class="wow animated slideInLeft delay-Qs p3">
         <img src="img/projects/website.png" alt="Project" />
         <a href="https://github.com/EddyYeung1/Portfolio-Website" class="btn-dark" style="text-align: center">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
-      <div class="pPad t3">
+      <div class="wow animated slideInRight delay-Qs pPad t3">
         <h1><span class="text-secondary">Personal Website</span></h1>
         <p>
           This portfolio website is actually the first side project I have
@@ -187,7 +189,7 @@
           <span class="text-secondary">JavaScript</span>, mixed with Sass.
           Along with the basic static information, I added the
           <span class="text-secondary">particles.js</span> library to create
-          the front page. The most annoying part was definitely making the
+          the front page. For the animations, I used <span class="text-secondary">animate.css</span> and <span class="text-secondary">wow.js</span> to make the animations be played once the user scrolls it an element. The most annoying part was definitely making the
           whole website was responsive because I knew most of my friends would
           look at this on their phone. Aside from that, I also learned how to
           use <span class="text-secondary">Github</span> properly too.
@@ -199,6 +201,10 @@
         console.log("particles.json loaded...");
       });
     </script>
+    <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -59,7 +59,7 @@ header {
 }
 #first {
   border-top: 1px $secondary-color solid;
-  margin-top: 15rem;
+  margin-top: 25rem;
   padding: 4rem;
   height: 100%;
 }
@@ -229,6 +229,20 @@ main {
 
 .margin-top {
   margin-top: 5rem;
+}
+
+.animated.delay-Qs {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.animated.delay-2s {
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 //media queries should be run after initial css
