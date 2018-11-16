@@ -151,6 +151,18 @@ header {
 .text-secondary {
   color: limegreen; }
 
+#first {
+  border-top: 1px limegreen solid;
+  margin-top: 15rem;
+  padding: 4rem;
+  height: 100%; }
+
+#second {
+  border-top: 1px limegreen solid;
+  margin-top: 5rem;
+  padding: 4rem;
+  height: 100%; }
+
 main {
   padding: 4rem;
   height: 100%;
@@ -250,6 +262,9 @@ main {
   color: #fff;
   height: 60px; }
 
+.margin-top {
+  margin-top: 5rem; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(2, 2fr);
@@ -280,6 +295,12 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  #first {
+    align-items: center;
+    text-align: center; }
+  #second {
+    align-items: center;
+    text-align: center; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
