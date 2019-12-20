@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #fdfdc1;
     list-style: none;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #fefeda;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,7 +57,7 @@
       height: 250px;
       background: url("../img/profile.png");
       border-radius: 50%;
-      border: solid 3px limegreen; }
+      border: solid 3px #FD935B; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: limegreen;
+    color: #FD935B;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #fefeda;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -111,7 +111,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(68, 68, 68, 0.9);
+      background: rgba(254, 254, 218, 0.9);
       z-index: -1; }
 
 canvas {
@@ -137,10 +137,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: burlywood; }
 
 a {
-  color: white;
+  color: burlywood;
   text-decoration: none; }
 
 header {
@@ -149,16 +149,16 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: limegreen; }
+  color: #FD935B; }
 
 #first {
-  border-top: 1px limegreen solid;
+  border-top: 1px #FD935B solid;
   margin-top: 25rem;
   padding: 4rem;
   height: 100%; }
 
 #second {
-  border-top: 1px limegreen solid;
+  border-top: 1px #FD935B solid;
   margin-top: 5rem;
   padding: 4rem;
   height: 100%; }
@@ -172,7 +172,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: limegreen;
+        color: #FD935B;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -188,7 +188,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 52%;
-    border: limegreen 2px solid;
+    border: #FD935B 2px solid;
     background-size: cover; }
   .about-info .bio {
     grid-area: bio;
@@ -200,12 +200,12 @@ main {
   .about-info .job3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #70C3A6;
     padding: 0.5em;
-    border-bottom: limegreen 5px solid;
+    border-bottom: #FD935B 5px solid;
     text-align: center; }
   .about-info h6 {
-    color: limegreen;
+    color: #fefeda;
     font-size: 0.75rem; }
 
 #workHeader {
@@ -236,7 +236,7 @@ main {
   .projects img {
     width: 100%;
     height: 70%;
-    border: 3px limegreen solid; }
+    border: 3px #FD935B solid; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -244,22 +244,22 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: limegreen;
+    background: #FD935B;
     color: #000; }
 
 .btn-dark {
-  background: black;
+  background: burlywood;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #fdfda8;
+  color: #000;
   height: 60px; }
 
 .margin-top {
