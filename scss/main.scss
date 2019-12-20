@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Archivo', sans-serif;
   line-height: 1.5;
 }
 canvas {
@@ -131,7 +131,7 @@ main {
   }
 
   .job {
-    background: lighten($primary-color, 5);
+    background: white;
     padding: 0.5em;
     border-bottom: $secondary-color 5px solid;
     text-align: center;
@@ -139,7 +139,7 @@ main {
 
   h6 {
     color: $secondary-color;
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 #workHeader {

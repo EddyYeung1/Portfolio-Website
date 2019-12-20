@@ -98,7 +98,7 @@ body {
   color: #000;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Archivo', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -200,13 +200,13 @@ main {
   .about-info .job3 {
     grid-area: job3; }
   .about-info .job {
-    background: #70C3A6;
+    background: white;
     padding: 0.5em;
     border-bottom: #FD935B 5px solid;
     text-align: center; }
   .about-info h6 {
-    color: #fefeda;
-    font-size: 0.75rem; }
+    color: #FD935B;
+    font-size: 1rem; }
 
 #workHeader {
   font-size: 6em; }
@@ -329,7 +329,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/profile-small.png");
+      background: url("../img/newPic-small.png");
       width: 150px;
       height: 150px; }
   .about-info {
