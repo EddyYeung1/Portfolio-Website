@@ -151,7 +151,9 @@ main {
   grid-template-areas:
     "p1 t1"
     "t2 p2"
-    "p3 t3";
+    "p3 t3"
+    "t4 p4"
+    "p5 t5";
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 2fr);
 
@@ -181,6 +183,18 @@ main {
 
   .t3 {
     grid-area: t3;
+  }
+  .t4 {
+    grid-area: t4;
+  }
+  .p4 {
+    grid-area: p4;
+  }
+  .t5 {
+    grid-area: t5;
+  }
+  .p5 {
+    grid-area: p5;
   }
 
   p {

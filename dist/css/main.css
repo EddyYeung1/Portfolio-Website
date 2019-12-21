@@ -213,7 +213,7 @@ main {
 
 .projects {
   display: grid;
-  grid-template-areas: "p1 t1" "t2 p2" "p3 t3";
+  grid-template-areas: "p1 t1" "t2 p2" "p3 t3" "t4 p4" "p5 t5";
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 2fr); }
   .projects .pPad {
@@ -230,6 +230,14 @@ main {
     grid-area: p3; }
   .projects .t3 {
     grid-area: t3; }
+  .projects .t4 {
+    grid-area: t4; }
+  .projects .p4 {
+    grid-area: p4; }
+  .projects .t5 {
+    grid-area: t5; }
+  .projects .p5 {
+    grid-area: p5; }
   .projects p {
     font-size: 1.25em;
     margin: 0; }
@@ -336,7 +344,7 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-areas: "p1" "t1" "p2" "t2" "p3" "t3";
+    grid-template-areas: "p1" "t1" "p2" "t2" "p3" "t3" "p4" "t4" "p5" "t5";
     grid-template-columns: 1fr;
     grid-gap: 1em; }
   .projects p {
